@@ -8,7 +8,8 @@ RAG Implementation: Utilizes the Offline Llama2 model to perform retrieval and g
 Vector Store: Stores document embeddings in Milvus for efficient querying and retrieval.
 
 **Install required dependencies:**
-```pip install langchain pypdf pymilvus
+```
+pip install langchain pypdf pymilvus
 ```
 
 Setup Milvus using the provided script:
