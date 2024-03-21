@@ -11,8 +11,10 @@ Vector Store: Stores document embeddings in Milvus for efficient querying and re
 pip install langchain pypdf pymilvus
 Setup Milvus using the provided script:
 
-*wget https://raw.githubusercontent.com/milvus-io/milvus/master/scripts/standalone_embed.sh*
-*bash standalone_embed.sh start*
+```
+wget https://raw.githubusercontent.com/milvus-io/milvus/master/scripts/standalone_embed.sh
+bash standalone_embed.sh start
+```
 
 *Usage:*
 Prepare PDF documents: Place PDF files in the designated directory.
